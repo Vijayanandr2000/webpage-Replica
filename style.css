@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back-grnd img{
+    /* position: absolute;
+    clip: rect(20px,0px,20px,0px); */
+    width: 100%;
+    height: 540px; 
+    object-fit: cover;
+}
+.con-1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 540px;
+    background-color: rgb(85, 84, 84);
+    opacity: 64%;
+}
+.con-1 h2{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    color:white;
+    opacity: 100%;
+}
+.content h2{
+    position: absolute;
+    top: 19px;
+    left: 240px;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(245, 245, 245);
+    
+}
+.content img{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    opacity: 10000px;
+    visibility: visible;
+    color:rgb(255, 254, 254);
+}
+.general {
+    position: absolute;
+    right: 230px;
+    top: 25px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: bold;
+}
+.general .about,.general .logo{
+    margin-left: 25px;
+}
+.head h1{
+    position: absolute;
+    top:209px;
+    left: 35%;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+.head h2{
+    position: absolute;
+    top:300px;
+    left: 39%;
+    color: rgb(230, 230, 230);
+    font-size:27px ;
+    font-weight: lighter;
+}
+.fixed p{
+    position: absolute;
+    top: 105px;
+    left: 89%;
+    right: 0;
+    background-color: white;
+    color: blue;
+    text-transform: uppercase;
+    padding: 13px;
+    font-weight: bolder;
+    position: fixed;
+    border: 1px solid rgb(1, 1, 145);
+
+}
+.body{
+    margin: 80px 450px 30px 450px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.body h1{
+    margin-top: 20px;
+}
+.first h2{
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.first :hover{
+    color: rgb(5, 129, 212);
+}
+.body address{
+    margin-top: 10px;
+    color: grey;
+    font-weight: lighter;
+}
+.second h2{
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.second :hover{
+    color: rgb(5, 129, 212);
+}
+.third h2{
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.third :hover{
+    color: rgb(5, 129, 212);
+}
+.social{
+    padding: 0 180px 0 180px;
+
+}
+.social i{
+    margin-top: 130px;
+    border-radius: 50%;
+}
+.social ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}    
+li a{
+    color: #000;
+}
+li a :hover{
+    color: crimson;
+}
+.last{
+    margin-top: 40px;
+    padding-left: 200px;
+    justify-content: center;
+    font-weight: lighter;
+    color: darkgray;
+    font-size: 16px;
+
+}
